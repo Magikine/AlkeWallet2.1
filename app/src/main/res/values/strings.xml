@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">AlkeWallet</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="enviar">Enviar</string>
+    <string name="bienvenido">Bienvenido</string>
+    <!--    page3-->
+    <string name="txt_cabecera">Logea y empieza a transferir</string>
+    <string name="email">Email</string>
+    <string name="ingresa_email">Ingresa tu email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ingresa_contraseña">Ingresa tu contraseña</string>
+    <string name="olvidacontraseña">Olvidaste tu contraseña?</string>
+    <string name="login">Login</string>
+    <!-- page 4-->
+    <string name="txt_cabecera2">Registrarse y </string>
+    <string name="txt_cabecera3"> empezar a transferir</string>
+    <string name="nombre">Nombre</string>
+    <string name="ingresa_nombre">Ingresa  nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="ingresa_apellido">Ingresa  apellido</string>
+    <string name="reingresa_contraseña">Reingresa  contraseña</string>
+    <string name="ya_tienes_cuenta">Ya tienes cuenta??</string>
+
+    <!-- page 5-->
+    <string name="inicio">Inicio</string>
+    <string name="txt_balancetotal">Balancetotal</string>
+    <string name="_124_57">$124.57</string>
+    <string name="enviar_dinero">Enviar Dinero</string>
+    <string name="ultimas_transacciones">ultimas transacciones</string>
+    <string name="no_hay_transacciones_resgistradas">No hay transacciones registradas!</string>
+
+
+</resources>

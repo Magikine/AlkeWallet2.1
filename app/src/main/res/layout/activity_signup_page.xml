@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".view.SignupPageActivity"
+    android:background="@drawable/background__1_">
+
+
+    <TextView
+        android:id="@+id/cabecerapag3"
+        style="@style/cabecera_negro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/jua"
+        android:text="@string/txt_cabecera2"
+        app:layout_constraintBottom_toTopOf="@+id/cabecerapag4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_nombre_pg4"
+        style="@style/cabecera_negro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/nombre"
+        android:textColorHint="@color/negro"
+        app:hintEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/txt_apellido_pg4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cabecerapag3">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lbl_nombre_pg4"
+            style="@style/label_negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.2494"
+            android:background="@color/white"
+            android:text="@string/ingresa_nombre" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_apellido_pg4"
+        style="@style/cabecera_negro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="200dp"
+        android:hint="@string/apellido"
+        android:textColorHint="@color/negro"
+        app:hintEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cabecerapag3"
+        app:layout_constraintVertical_bias="0.441">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lbl_apellido_pg4"
+            style="@style/label_negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.2494"
+            android:background="@color/white"
+            android:text="@string/ingresa_apellido" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_contraseña_pg4"
+        style="@style/cabecera_negro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:hint="@string/contraseña"
+        android:textColorHint="@color/negro"
+        app:hintEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cabecerapag3"
+        app:layout_constraintVertical_bias="0.441">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lbl_contraseña_pg4"
+            style="@style/label_negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.2494"
+            android:background="@color/white"
+            android:text="@string/ingresa_contraseña" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_reingresacontraseña_pg4"
+        style="@style/cabecera_negro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
+        android:hint="@string/reingresa_contraseña"
+        android:textColorHint="@color/negro"
+        app:hintEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cabecerapag3"
+        app:layout_constraintVertical_bias="0.441">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lbl_reingresacontraseña_pg4"
+            style="@style/label_negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.2494"
+            android:background="@color/white"
+            android:text="@string/reingresa_contraseña" />
+    </com.google.android.material.textfield.TextInputLayout>
+    />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_email_pg4"
+        style="@style/cabecera_negro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="60dp"
+        android:hint="@string/email"
+        android:textColorHint="@color/negro"
+        app:hintEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cabecerapag3"
+        app:layout_constraintVertical_bias="0.441">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lbl_email_pg4"
+            style="@style/label_negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.2494"
+            android:background="@color/white"
+            android:text="@string/ingresa_email" />
+    </com.google.android.material.textfield.TextInputLayout>
+    />
+
+    <Button
+        android:id="@+id/btn_pg2"
+        style="@style/boton_celeste"
+        android:layout_width="345dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="100dp"
+        android:text="Crear cuenta nueva"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_reingresacontraseña_pg4"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/jua"
+        android:text="ya tienes una cuenta??"
+        android:textColor="@color/celeste"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pg2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/cabecerapag4"
+        style="@style/cabecera_negro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-90dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/jua"
+        android:text="@string/txt_cabecera3"
+        app:layout_constraintBottom_toTopOf="@+id/txt_nombre_pg4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cabecerapag3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
